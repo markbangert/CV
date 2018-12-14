@@ -1,0 +1,276 @@
+\documentclass[a4paper,10pt]{article} 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyheadoffset{2cm}
+
+\rhead{Munich, \today}
+\lfoot{Curriculum Vitae} \cfoot{Hans-Peter Wieser} \rfoot{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{multicol}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{xcolor} 
+\usepackage{textcomp}
+\usepackage[big]{layaureo} 
+\usepackage{hyperref} 
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} 
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} 
+
+\usepackage{titlesec} 
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] 
+\titlespacing{\section}{0pt}{3pt}{3pt} 
+
+
+\begin{document}
+
+\vspace{1cm}
+\par{\centering{\Huge Hans-Peter \textsc{Wieser}}\bigskip\par} 
+\vspace{1cm}
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place of Birth:} & Bad Reichenhall, Germany \\
+\textsc{Address:} & Munich, Germany \\
+\textsc{email:} & \href{mailto:email@hpwieser.de}{email@hpwieser.de}\\
+&                            \href{https://www.xing.com/profile/HansPeter_Wieser}{Xing profile} \thinspace | \thinspace  \href{https://www.linkedin.com/in/hans-peter-wieser-3130b5136/}{LinkedIn profile} | \thinspace  \href{https://github.com/becker89}{GitHub profile}\\
+\end{tabular}
+\vspace{.3cm}
+
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{Aug.} 2018 & PhD student, \textbf{German Cancer Research Center}\\
+\textsc{Feb.} 2015 &\emph{Heidelberg, Germany} - Medical Physics in Radiation Oncology,\\
+& Radiotherapy Optimization \url{https://www.dkfz.de/radopt}\\
+&\\
+
+\textsc{May} 2017 & Internship, \textbf{Max Planck Institute for Intelligent Systems}\\
+\textsc{Aug.} 2017 &\emph{T{\"u}bingen, Germany} - \href{https://pn.is.tuebingen.mpg.de/person/phennig}{Probabilistic Numerics Group},\\
+&developing closed-form uncertainty propagation algorithms for radiotherapy\\
+&\\
+
+\textsc{Feb.} 2017 & Internship, \textbf{University of Texas MD Anderson Cancer Center}\\
+\textsc{Apr.} 2017 &\emph{Houston, USA} - \href{https://faculty.mdanderson.org/profiles/radhe_mohan.html}{research intern in the radiation oncology department},\\
+& purpose: robust treatment planning for protons\\
+&\\
+
+\textsc{May} 2016 & Internship, \textbf{Max Planck Institute for Intelligent Systems}\\
+\textsc{Aug.} 2016 &\emph{T{\"u}bingen, Germany} - \href{https://pn.is.tuebingen.mpg.de/person/phennig}{Probabilistic Numerics Group},\\
+&developing closed-form uncertainty propagation algorithms for radiotherapy\\
+&\\
+
+\textsc{Nov.} 2013 & Master of Science, \textbf{Carinthia University of Applied Sciences}\\
+\textsc{Sept.} 2011 &\emph{Klagenfurt, Austria} - Health Care Information Technology\\
+& emphasis on medical image processing | graduation: October 2013 \\
+&\normalsize \textsc{weighted Average}: 1.83 \hspace{10mm} \href{https://www.fh-kaernten.at/en/degree-programs/engineering-it/overview/engineering-it/master/health-care-it/degree-program-health-care-it/}{course of study}\\\\
+&\\
+
+\textsc{Aug.} 2013 & Intern at \textbf{University of Texas MD Anderson Cancer Center}\\
+\textsc{Feb.} 2013 &\emph{Houston, USA} - research intern in the diagnostic radiology department\\
+& purpose: automated prostate zone segmentation\\
+&\\
+
+\textsc{July} 2011 & Bachelor of Science, \textbf{Carinthia University of Applied Sciences}\\
+\textsc{Sept.} 2008 &\emph{Klagenfurt, Austria} - Medical Information Technology\\
+& emphasis on medical image processing and electrical engineering\\
+&\normalsize \textsc{weighted Average}: 2.12 \hspace{10mm}  \href{https://www.fh-kaernten.at/unser-studienangebot/engineering-it/ueberblick/engineering-it/bachelor/informationstechnologien/studiengaenge-informationstechnologien/medizintechnik/}{course of study}\\
+&\\
+
+
+\textsc{June} 2008 & University-Entrance Diploma, \href{http://www.htl-salzburg.ac.at/elektrotechnik.html}{HTBL}\\
+\textsc{Sept.} 2003 &\emph{Salzburg, Austria} - Higher secondary School for Electrical Engineering \\
+& focus on power engineering and industrial electronics \\
+
+&\\
+
+
+\end{tabular}
+
+\vspace{.5cm}
+
+\section{Scholarships and Awards}
+
+\begin{tabular}{rl}
+\textsc{Jun.} 2017 & Selected as Editors choice June 2017 \href{http://onlinelibrary.wiley.com/doi/10.1002/mp.12251/full}{Link}\\
+\textsc{May} 2016 & PTCOG 55 Travel Fellowship\\
+\textsc{Dez.} 2013 & winner of Build! FH MasterCup 2013 (best master thesis)\\
+\textsc{Aug.} 2013 & awarded \emph{Exzellenzstipendium} by \emph{Industriellenvereinigung K{\"a}rnten}\\ %\footnotesize(\textsf{\texteuro} 5000)\normalsize\\
+\textsc{Apr.} 2013 & 3rd place at the NCI-ISBI Automated Prostate Segmentation Challenge\\
+\textsc{Jan.} 2013 & awarded \emph{Austrian Marshall Plan} scholarship\\ %\footnotesize(\textsf{\texteuro} 8000)\normalsize\\
+\end{tabular}
+
+\vspace{0.5cm}
+
+\section{Publications}
+
+\begin{tabular}{rl}
+\textsc{Apr.} 2018 & matRad - An open source treatment planning toolkit for educational purposes\\
+& \emph{Medical Physics International Journal} \href{http://www.mpijournal.org/pdf/2018-01/MPI-2018-01-p119.pdf}{Link}\\
+\textsc{Feb.} 2018 & Analytical incorporation of fractionation effects in probabilistic treatment\\
+& planning for intensity-modulated proton therapy  -\emph{ Med.Phys.} \href{https://www.ncbi.nlm.nih.gov/pubmed/29393506}{Link}\\
+\textsc{Nov.} 2017 & Analytical probabilistic modeling of RBE-weighted dose for ion therapy \\
+& \emph{Phys Med Biol.} \href{https://www.ncbi.nlm.nih.gov/pubmed/28980974}{Link}\\
+\textsc{Nov.} 2017 & Impact of respiratory motion on variable relative biological \\
+&effectiveness in 4D-dose distributions of proton therapy. -\emph{Acta Oncol.} \href{https://www.ncbi.nlm.nih.gov/pubmed/28828913}{Link}\\
+\textsc{Jun.} 2017 & Development of the open-source dose calculation and \\
+& optimization toolkit matRad. -\emph{ Med.Phys.} \href{https://www.ncbi.nlm.nih.gov/pubmed/28370020}{Link}\\
+\textsc{Jun.} 2017 & Efficiency of analytical and sampling-based uncertainty propagation \\
+& in intensity-modulated proton therapy. -\emph{Phys Med Biol.} \href{https://www.ncbi.nlm.nih.gov/pubmed/28370020}{Link}\\
+\end{tabular}
+
+\vspace{0.5cm}
+
+\section{Talks and Posters}
+
+\begin{tabular}{rl}
+\textsc{Jun.} 2018 & matRad – ein open-source Planungssystem für \\
+& strahlentherapeutische Krebsbehandlungen -\emph{TALK at MATLAB Expo, Munich} \\
+\textsc{Apr.} 2018 & Simultaneous consideration of biological and physical \\
+& uncertainties in robust ion beam therapy planning with  \\
+& analytical probabilistic modeling  - \emph{TALK at ESTRO 37, Barcelona} \\
+\textsc{Apr.} 2018 & matRad as a collaboration tool in radiotherapy developments\\
+&   \emph{ TALK at Workshop, Santiago de Chile}\\
+\textsc{Apr.} 2018 & Smooth animations of the probabilistic analog to worst-case dose distributions\\
+&   \emph{coauthor POSTER at ESTRO 37, Barcelona}  \\
+\textsc{Apr.} 2018 & Analytical probabilistic models for dose quality metrics and optimization objectives\\
+&   \emph{coauthor POSTER at ESTRO 37, Barcelona - }  \\
+\textsc{Nov.} 2017 & Analytical probabilistic modelling of RBE-weighted dose for ion therapy\\
+&   \emph{TALK at 1st ESTRO physics workshop, Glasgow }  \\
+\textsc{June} 2016 & Analytical probabilistic modeling of range and setup uncertainties\\
+&  in carbon ion therapy planning  - TALK at \emph{ICCR, London}\\
+\textsc{May} 2016 & Validation of a proton dose calculation engine for the open-source \\
+& treatment planning software matRad -\emph{ POSTER at PTCOG, Prague}\\
+\textsc{Mar.} 2016 & Analytical Probabilistic Modeling for Proton and Carbon Ion Radiotherapy \\
+& - \emph{POSTER at Novel Techniques in Ion Beam Radiotherapy, Heidelberg}\\
+\textsc{Sep.} 2015 & matRad – Open Source Toolkit für biologische Bestrahlungsplanung \\
+&  mit Kohlenstoff Ionen - \emph{TALK at DGMP, Marburg}\\
+\end{tabular}
+
+\pagebreak
+
+
+\section{Research interests}
+
+\setlength{\columnsep}{0cm}
+\begin{multicols}{2}
+\begin{itemize}
+  \item charged particle therapy (CPT)
+  \item physical and biological uncertainties in (CPT)
+  \item probabilistic treatment planning
+  \item treatment plan optimization
+  \item proton mini beams
+  \item physical and bio. beam models
+  \item ion range verification
+\end{itemize}
+\end{multicols}
+
+\vspace{0.3cm}
+
+
+\section{Work Experience}
+\begin{longtable}{r|p{11cm}}
+
+\textsc{Feb 2015} & Project Engineer/Software Developer at \textsc{BrainLAB AG}, Feldkirchen \\
+\textsc{Feb 2014} & \emph{full time - 40 hours per week}\\
+& \footnotesize{Department: Radiotherapy Research and Development }\\
+& \href{http://www.brainlab.com}{http://www.brainlab.com}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Jan. 2013} & Medical Engineer at \textsc{Ordination Dr. W. Weitensfelder}, Klagenfurt \\
+\textsc{July 2011} & \emph{side job - 10 hours per week}\\
+& \footnotesize{archived patient records using \emph{DocuWare}, managed digital library with \emph{Calibre}, responsible for frequent data backups, IT supervision  }\\
+& \href{http://www.w-weitensfelder-chirurg.at}{http://www.w-weitensfelder-chirurg.at}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Feb. 2011} & Intern at \textsc{RoMed Klinikum}, Rosenheim, Germany \emph{}\\
+\textsc{May. 2011} & \emph{full time}\\
+&\footnotesize{Quality assurance concerning the radiology department, performed constancy checks, maintained DICOM Server, dealt with X-ray ordinance as well as radiation protection}\\
+& \href{http://www.romed-kliniken.de}{http://www.romed-kliniken.de}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Summer 2009} & Electrical Engineer at \textsc{Reihnmetall Defence Waffe Muntion}, Schneizelreuth, Germany\\
+&\emph{nine weeks full time}\\
+& \footnotesize{programmed cable testing devices, tested cables for German defense canonry}\\
+& \href{http://www.rheinmetall-defence.com}{http://www.rheinmetall-defence.com}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{2006 - 2008} & Control technician \& software engineer at \textsc{Kiefel AG}, Freilassing, Germany \\
+&\emph{28 weeks - part time}\\
+& \footnotesize{commissioned medical blood-bags producing devices, programmed PLC software for components tests, commissioned linear motors, analyzed time behavior of SPS components, programmed generic interfaces for GUI's }\\
+& \href{http://www.kiefel.com}{http://www.kiefel.com}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Summer 2005} & Electrical engineer at \textsc{Wildkogelbahnen}, Neukirchen am Großvenediger, Austria\\
+&\emph{6 weeks - full time}\\
+& \footnotesize{installed the drive station of a ski chair lift}\\
+& \href{http://www.wildkogel-arena.at}{http://www.wildkogel-arena.at}\\
+\multicolumn{2}{c}{} \\
+
+\end{longtable}
+
+
+\pagebreak
+
+\section{Projects}
+
+
+%\begin{tabular}{r|p{11cm}}
+\begin{longtable}{r|p{11cm}}
+\textsc{Autumn 2018} & PhD thesis - \textsc{Probabilistic Treatment Planning for Carbon Ion Therapy} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Summer 2013} & master thesis - \textsc{Supervised Machine Learning Approach utilizing Artificial Neural Networks for Automated Prostate Zone Segmentation in Abdominal MR images} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Autumn 2012} & project work - \textsc{Quantifying Stained Liver Tissue in Microscopy Images using Matlab } \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Autumn 2012} & project work - \textsc{Implementation of a GUI to visualize training calendars in C\#} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Autumn 2012} & project work - \textsc{Developed Secure Instant Messenger Application for Apple Devices} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Spring 2011} & bachelor thesis - \textsc{Robust Volume Calculation of Closed Surface Models} \\
+\multicolumn{2}{c}{} \\
+
+\end{longtable}
+
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{German:} & native speaker\\
+
+\textsc{English:} & proficient in both spoken and written \\
+\end{tabular}
+
+
+\vspace{0.5cm}
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Intermediate Knowledge: &  phyton, \textsc{C}++,\textsc{C\#}, my\textsc{SQL}, LabView\\
+Expert Knowledge: & \textsc{Matlab}, \LaTeX\ \\
+\end{tabular}
+
+
+\vspace{0.5cm}
+
+\section{Interests and Activities}
+\begin{tabular}{rl}
+interests: & physics, programming, reading IT magazines, smart home,\\
+& renewable energies, distributed ledger technologies\\
+sports: & jogging, hiking, climbing, soccer, traveling
+\end{tabular}
+
+\end{document}
