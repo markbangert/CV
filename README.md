@@ -2,4 +2,6 @@
 
 This repository hosts the code for my CV.
 
-It uses Travis CI, Docker and Tectonic to automatically re-create the PDF from the source code upon every commit in the master branch. The resulting PDF is pushed to a gh-pages branch.
+The resulting PDF is automatically pushed to a gh-pages branch. On every commit to the master branch, the pdf is compiled via TRAVIS CI using Docker and Tectonic.
+
+More information on the build process can be found [here](https://github.com/PHPirates/travis-ci-latex-pdf).  
