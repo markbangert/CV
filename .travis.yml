@@ -7,7 +7,6 @@ addons:
   apt:
     packages:
     - fonts-font-awesome
-    - fonts-font-lato
 
 cache:
   directories:
