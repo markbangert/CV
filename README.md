@@ -1,4 +1,4 @@
-# Curriculum Vitae [![Build Status](https://travis-ci.org/becker89/CV.svg?branch=master)](https://travis-ci.org/becker89/CV)
+# Curriculum Vitae [![Build Status](https://travis-ci.org/markbangert/CV.svg?branch=master)](https://travis-ci.org/markbangert/CV)
 
 This repository hosts the code for my CV.
 
